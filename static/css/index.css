@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  background-color: rgb(200, 193, 193);
+  width: 100%;
+  min-height: 160px;
+  max-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
